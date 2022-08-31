@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    --main-bg-color: #43597D;
+    --secodary-bg-color: #A0C0D6;
+
+    --primary-btn-color: #DE7456;
+    --primary-btn-color-hover: #de7356aa;
+    --secondary-btn-color: #A0C0D6;
+    --secondary-btn-color-hover: #A0C0D6d8;
+
+    --main-text-color: #2B3240;
+    --nav-bar-height: 5rem;
+
+
+    --dark-bg-color: #313131;
+    --text-highlight: var(--primary-btn-color);
+
+    --height-auto: calc(100vh - var(--nav-bar-height));
+}
+
+/* Bootstrap override */
+.btn-primary {
+    background-color: var(--primary-btn-color);
+    border-color: var(--primary-btn-color);
+}
+
+.btn-primary:hover, .btn-primary:active {
+    background-color: var(--primary-btn-color-hover);
+    border-color: var(--primary-btn-color-hover);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-btn-color);
+    border: var(--secondary-btn-color);
+}
+
+.btn-secondary:hover, .btn-secondary:active {
+    background-color: var(--secondary-btn-color-hover);
+    border: var(--secondary-btn-color-hover);
+}

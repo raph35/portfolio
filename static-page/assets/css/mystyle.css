@@ -1,0 +1,144 @@
+:root {
+    --main-bg-color: #43597D;
+    --secodary-bg-color: #A0C0D6;
+
+    --primary-btn-color: #DE7456;
+    --primary-btn-color-hover: #de7356aa;
+    --secondary-btn-color: #A0C0D6;
+    --secondary-btn-color-hover: #A0C0D6d8;
+
+    --main-text-color: #2B3240;
+    --nav-bar-height: 5rem;
+
+    --text-highlight: var(--primary-btn-color);
+
+    --height-auto: calc(100vh - var(--nav-bar-height));
+}
+
+.text-highlight {
+    color: var(--text-highlight);
+    letter-spacing: 0.3em;
+}
+
+/* header section */
+
+header {
+    min-height: var(--nav-bar-height);
+    background-color: var(--main-bg-color);
+}
+
+/* Navbar  */
+
+nav {
+    min-height: var(--nav-bar-height) !important;
+    max-height: max-content;
+}
+
+.nav-item {
+    margin: 0 20px;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+#biography {
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+#biography h1 {
+    font-weight: bold;
+}
+
+.min-height-auto {
+    min-height: var(--height-auto);
+}
+
+
+#banner-image {
+    background-image: url('../img/Pexels.png');
+    background-size: cover;
+    width: 80%;
+    aspect-ratio: 1;
+}
+/* main section  */
+
+
+.techno-ico {
+    height: 40px;
+    width: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px
+}
+
+#techno-maitrise {
+    background-color: #D9D9D9;
+
+}
+
+
+#newsletter {
+    background-color: #D9D9D9;
+}
+
+.img-slide {
+    max-width: 80%;
+    aspect-ratio: 1;
+}
+
+
+
+
+#carouselDescription .description-item {
+    height: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    overflow: hidden;
+}
+
+#carouselDescription .active {
+    opacity: 1;
+    height: fit-content;
+}
+
+#carousel_container {
+    background-color: var(--main-bg-color);
+}
+
+/* footer section */
+footer {
+    background-color: #313131;
+    color: white;
+}
+
+.footer-ico {
+    height: 30px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+/* Bootstrap override */
+.btn-primary {
+    background-color: var(--primary-btn-color);
+    border-color: var(--primary-btn-color);
+}
+
+.btn-primary:hover, .btn-primary:active {
+    background-color: var(--primary-btn-color-hover);
+    border-color: var(--primary-btn-color-hover);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-btn-color);
+    border: var(--secondary-btn-color);
+}
+
+.btn-secondary:hover, .btn-secondary:active {
+    background-color: var(--secondary-btn-color-hover);
+    border: var(--secondary-btn-color-hover);
+}
+.active {
+    color: var(--text-highlight)!important;
+}

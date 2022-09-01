@@ -1,6 +1,6 @@
 const carousel = document.querySelector("#carouselDescription");
 console.log(carousel)
-const listDescription = carousel?.querySelectorAll("div[data-target='#project_carouselDescription']")
+const listDescription = carousel.querySelectorAll("div[data-target='#project_carouselDescription']")
 
 console.log(listDescription);
 

@@ -1,0 +1,24 @@
+.img-slide {
+    width: 80%;
+    aspect-ratio: 1;
+}
+
+#carouselDescription .description-item {
+    height: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    overflow: hidden;
+}
+
+#carouselDescription .active {
+    opacity: 1;
+    height: fit-content;
+}
+
+#carousel_container {
+    background-color: var(--main-bg-color);
+}
+
+#project_carousel {
+    width: 80%;
+}

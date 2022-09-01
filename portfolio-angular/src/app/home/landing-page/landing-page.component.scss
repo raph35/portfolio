@@ -1,0 +1,21 @@
+
+#biography {
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+#biography h1 {
+    font-weight: bold;
+}
+
+.min-height-auto {
+    min-height: var(--height-auto);
+}
+
+
+#banner-image {
+    background-image: url('../../../assets/img/Pexels.png');
+    background-size: cover;
+    width: 80%;
+    aspect-ratio: 1;
+}
